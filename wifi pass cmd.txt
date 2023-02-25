@@ -1,0 +1,12 @@
+run as adminstrator on cmd
+
+netsh wlan show profile
+
+
+netsh wlan export profile folder=c:\ key=clear
+
+and go to c drive and new files open with notepad
+
+then find the <keyMaterial> word 
+
+
